@@ -1,0 +1,75 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: grid;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    background: #f3f3f5;
+    color: #0f0f0f;
+}
+
+body { padding: .5rem; }
+
+.group {
+    border-radius: 10px;
+    padding: .5rem;
+    border: solid 1px #dddddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: .5rem;
+    transition: transform 0.2s ease;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.last-data{
+    font-weight: bold;
+}
+
+.date-time {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.ok, green {
+    color: #00b86b; 
+}
+
+.fail, red, #firewall .label, #forti .label, #crowdstrike .label, #kace .label, #netskope .label, .last-data, #telemetria, #windows_app .label, #lumu .label {
+    color: #cc2331; 
+}
+
+.center {
+    justify-content: center !important;
+    text-align: center;
+}
+
+button {
+    background: #131313; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+}
+
+button:hover {
+    background: #2b2b2b; 
+}
