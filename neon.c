@@ -575,7 +575,7 @@ static void coletaWindowsApp(char *saida, int tam)
 
 /* ── Network probe (background thread) ───────────────────────────────────── */
 
-#define HOST_TESTE        "minhaaec.grupoaec.com.br"
+#define HOST_TESTE        "intranet.com.br"
 #define INTERVALO_TESTE_MS 30000
 
 static volatile long acessoInternoGlobal = 0;
