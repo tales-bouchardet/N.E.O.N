@@ -5,9 +5,7 @@ Dashboard de terminal pra Windows, em C puro (WinAPI, sem libs externas). Mostra
 ## Build
 
 ```bat
-cl /utf-8 /O2 /W3 /nologo neon.c ^
-   advapi32.lib iphlpapi.lib netapi32.lib version.lib winhttp.lib user32.lib ws2_32.lib ^
-   /Fe:neon.exe
+cl /utf-8 /O2 /W3 /nologo neon.c advapi32.lib iphlpapi.lib netapi32.lib version.lib winhttp.lib user32.lib ws2_32.lib /Fe:neon.exe
 ```
 
 ## Usar
